@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+.aboutus {
+    height: 60vh;
+    margin: 4rem 9rem 5rem 9rem;
+    background-color: black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.aboutus .about_text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+}
+.aboutus h1 {
+    color: white;
+    float: right;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    bottom: 2.7rem;
+}
+
+.aboutus p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+
+
+.aboutus img{
+    height: 100%;
+    width: 500px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
